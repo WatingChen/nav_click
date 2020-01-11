@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+@import "public.css";
+html{font-size:13.3333vw;}/* 100除以设计图百分之一(vw) */
+html,body{
+    width: 100%;
+}
+.box{width:90%;margin:1rem auto;}
+.box ul{list-style: none;background: #aaa;padding: .2rem;}
+.box ul .first_li{margin:.2rem 0;background: #eee;font: .24rem/2 "";}
+.box ul .first_li h3{background: #eee;}
+.box ul .first_li .box1{
+    display: none;
+}
+.box ul .first_li .box1 p{background:#ccc;margin:.05rem;display: flex;padding: .2rem;
+justify-content: space-between;
+align-items: center;
+}
+.box ul .first_li .box1 p .btn{
+    width: 50px;
+    height: 30px;
+    font: 16px/30px "";
+    background: #ff9;
+    text-align: center;
+}
+.mask{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:0;
+    top:0;
+    background: rgba(0,0,0,0.3);
+}
+.mask .index{
+    position: absolute;
+    text-align: center;
+    width:2rem;
+    height: 2rem;
+    font: 1rem/2rem "";
+    background: #fff;
+    color:#000;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+ul .open{
+    font:.16rem/2 '';
+    text-align:center;
+}
